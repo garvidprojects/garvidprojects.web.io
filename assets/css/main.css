@@ -1,0 +1,43 @@
+body
+{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+   background-repeat: no-repeat;
+
+}
+#header
+{
+    margin:20px auto;
+   position: relative;
+    top: 96px;
+    
+}
+#contain
+{
+    position: relative;
+    bottom:20px;
+}
+
+h1
+{
+    margin: 0px;
+    
+    font-size: 3em;
+    color:#c33537;
+}
+h3
+{
+    font-size: 1.3em;
+    margin: 0px;
+    padding: 0px;
+}
+a
+{
+    text-decoration: none;
+}
+a:hover
+{
+    color:red;
+}

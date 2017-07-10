@@ -1,0 +1,39 @@
+body
+{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+#cont
+{
+    margin:20px auto;
+    position: relative;
+    top: 240px;
+}
+button
+{ 
+    font-family: 'Comfortaa',cursive;
+    background:red;
+    color:white;
+    padding:15px;
+    border:2px solid red;
+    transition-duration: 1s;
+}
+button:hover
+{
+    color:red;
+    font-weight: bolder;
+    background-color: white;
+    
+}
+a
+{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+a:hover
+{
+    color: red;
+}

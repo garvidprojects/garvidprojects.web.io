@@ -1,0 +1,66 @@
+<!Doctype html>
+<html>
+<head>
+    <title>APPLY FOR LEAVE-AMRIT BOTTLERS</title>
+     <link rel="stylesheet" type="text/css" href="assets\css\main5.css"/>
+         <link rel="shortcut icon" href="assets\images\logo.png" type="image/x-icon"/>
+    <link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="container"> 
+        
+          <div class="dropdown">
+         <button class="dropbtn">Employee Corner</button>
+              <div class="dropdown-content">
+          <a  href="register.php">Register</a>
+                 <a  href="index.html">Log Out</a>
+                 <a href="update.php">Update Profile</a>
+                 <a href="apply.html">Apply For Leave</a>
+            <a href="http://coca-colacompany.csod.com/LMS/catalog/Welcome.aspx?tab_page_id=-"67&tab_id=-1>Click here for online training</a>
+         <a href="#">Download Salary Slip</a>
+             </div>
+        </div>
+             <a href="contact.html" alt="Contact">Contact Us</a> 
+            <a  href="#" alt="About Us">About Us</a>
+            <a  href="home.html" alt="Home">Home</a>
+             <img class="logoo" src="assets\images\Logo4.png" alt="Amrit Bottlers Logo"/>
+        </div>
+    </header>
+    <div id="apply">
+         <form action="mail1.php" method="post">
+    <h1>Apply for Leave</h1>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your Name..">
+        <label for="mname">Midle Name</label>
+        <input type="text" id="mname" name="middlename" placeholder="Your Middle Name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Last Name..">
+        <label for="email">Email Id</label>
+        <input type="text" id="email" name="email" placeholder="someone@example.com ">
+             <label for="employeeid">Employee Id</label>
+        <input type="text" id="eid" name="emid" placeholder="HRR1204155ABPFZD ">
+             <label for="type">Type Of Leave :</label>
+        <select id="type" name="type">
+            <option value="Casual">Casual</option>
+            <option value="Medical">Medical</option>
+        </select><br/><br/>
+        <label for="Reason">Reason For Leave</label>
+        <textarea id="Reason" name="Reason" placeholder="Write here..." style="height:200px"></textarea>
+      
+             <label for="datee">Date of Leave</label>
+             <input type="date" id="sdate" name="starting" >
+            <label for="datee">Till Date</label>
+             <input type="date" id="ldate" name="end">
+             <label for="no">Number Of Days</label>
+             <input type="number" id="number" name="number">
+               <input type="submit" value="Submit">
+   
+        </form>
+    </div>
+      <footer>
+        <p>Amrit Bottlers Private Limited. www.amritbottlersfzd.com <br/>All right reserved Copyright 1982 </p>
+       </footer>
+          
+    
+    </body>

@@ -1,0 +1,160 @@
+body
+{
+    background-color: #f0f0f0;
+} 
+img
+        {
+            width:15px;
+            height:13px;
+        }
+        table
+        {
+             border: 1px solid #a0a0a0;
+             border-collapse: collapse;
+            width: 100%;
+             border-spacing: 10px;
+            position: relative;
+            top:20px;
+        }
+tr,td
+{
+     border: 1px solid black;
+            text-align: left;
+            padding: 2px;
+    background-color:#fefdde;
+           
+
+}
+        th
+        {
+             border: 1px solid black;
+            text-align: center;
+            padding: 2px;
+           
+        }
+th
+{
+    background-color: #008080;
+}
+.head
+{
+    background-color: #99b4d1;
+}
+label
+{
+    font-weight: bold;
+    font-size: small;
+}
+#secc
+{
+   border: 1px solid #a0a0a0;
+    padding: 5px;
+    width: 269px;
+    height: 50px;
+}
+input[type=text],input[type=number],input[type=date],input[type=radio],textarea
+{
+    border-top: 2px solid #a0a0a0;
+}
+#sec
+{border: 1px solid #a0a0a0;
+    padding: 5px;
+    width: 841px;
+    height: 54px;
+    position: absolute;
+    left: 289px;
+    top: 8px;
+}
+#sec >textarea
+{
+    width: 279px;
+    height: 20px;
+    position: absolute;
+    background-color: #e0e0e0;
+      color:#000080;
+}
+::placeholder
+{
+    color:#000080;
+}
+#sec>#Reason
+
+{
+       width: 279px;
+    height: 20px;
+    position: absolute;
+    left: 496px;
+    background-color: #e0e0e0;
+}
+#section2
+{
+  width: 1307px;
+    position: relative;
+    top: 3px;
+    padding: 5px;
+    border: 1px solid #a0a0a0;
+}
+#section2>#truck 
+{
+  width: 279px;
+    height: 15px;
+    position: absolute;
+    left: 596px;
+}   
+#section2>#radio
+{
+   position: absolute;
+    left: 1122px;
+    bottom: 31px;
+    border-top: 3px solid #a0a0a0;
+    width: 189px;
+    background: #e0e0e0;
+}
+#section3
+{
+   width: 1232px;
+    position: relative;
+    top: 13px;
+    padding: 5px;
+    border: 1px solid #a0a0a0;
+}
+#Address,#num,#city,#pin
+{
+    width:214px;
+}
+#blank
+{
+    background-color: #e0e0e0;
+     width: 279px;
+    height: 15px;
+    position: relative;
+    top: 6px;
+    
+}
+#too
+{
+    position: relative;
+    bottom: 9px;
+    left: 138px;
+}
+
+#space
+{
+   width: 176px;
+    height: 20px;
+    position: relative;
+    top: 11px;
+    background-color: #e0e0e0;
+}
+#section4
+{
+    position: relative;
+    top:38px;
+}
+#section4>button
+{
+    border:1px solid #a0a0a0;
+    background-color: white;
+    color:#a0a0a0;
+    padding: 4px;
+}
